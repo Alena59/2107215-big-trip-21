@@ -1,6 +1,7 @@
 {
   "name": "big-trip",
   "version": "20.0.0",
+  "homepage": "alena59.github.io/big-trip",
   "private": true,
   "description": "Проект «Большое путешествие» от HTML Academy",
   "browserslist": [
@@ -11,6 +12,7 @@
     "not < 0.25%"
   ],
   "scripts": {
+    "deploy": "gh-pages -d build",
     "lint": "eslint src/",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --open"
@@ -23,6 +25,7 @@
     "css-loader": "6.7.3",
     "eslint": "8.38.0",
     "eslint-config-htmlacademy": "9.0.0",
+    "gh-pages": "6.0.0",
     "html-webpack-plugin": "5.5.1",
     "style-loader": "3.3.2",
     "webpack": "5.79.0",
