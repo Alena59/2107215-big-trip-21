@@ -1,6 +1,6 @@
 import {makeId} from './utils/utils.js';
 
-const END_POINT = 'https://21.objects.pages.academy/big-trip';
+const END_POINT = 'https://21.objects.htmlacademy.pro/big-trip';
 const AUTHORIZATION = `Basic ${makeId(16)}`;
 
 const DEFAULT_TYPE = 'flight';
